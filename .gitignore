@@ -3,6 +3,7 @@
 !/.gitignore
 !/.emacs.d/init.el
 !/.config/i3/config
+!/bin/buildps1.sh
 !/.profile
 !/.zlogin
 !/.zshrc
