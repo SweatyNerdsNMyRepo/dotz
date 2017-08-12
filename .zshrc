@@ -1,5 +1,5 @@
-export term="xterm-256color"
-alias ls='ls --color=auto'
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
 #POWERLEVEL9K_MODE='awesome-fontconfig'
 #POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0BC'
@@ -14,7 +14,14 @@ alias ls='ls --color=auto'
 
 #POWERLEVEL9K_VCS_FOREGROUND=''
 #POWERLEVEL9K_VCS_BACKGROUND=''
+autoload -Uz compinit
+setopt COMPLETE_ALIASES
+compinit
+ttyctl -f
+zstyle ':completion:*' rehash
 
+source ~/.aliases
 source ~/bin/powerlevel9k/powerlevel9k.zsh-theme
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export term="xterm-256color"

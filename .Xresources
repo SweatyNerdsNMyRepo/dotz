@@ -1,7 +1,12 @@
-URxvt.font: -xos4-terminesspowerline-medium-r-normal--14-140-72-72-c-80-iso10646-1, -*-fixed-bold-r-*-*-*-100-*-*-*-*-iso8859-1 
-!URxvt.font: -*-fixed-bold-r-*-*-*-100-*-*-*-*-iso8859-1, -xos4-terminesspowerline-medium-r-normal--14-140-72-72-c-80-iso10646-1
-URxvt.boldFont: -*-fixed-bold-r-*-*-*-100-*-*-*-*-iso8859-1, -xos4-terminesspowerline-medium-r-normal--14-140-72-72-c-80-iso10646-1
-URxvt.depth: 32
+URxvt.font: -xos4-terminesspowerline-medium-r-normal--14-140-72-72-c-80-iso10646-1, -*-fixed-bold-r-*-*-*-100-*-*-*-*-iso8859-1
+URxvt.boldFont: -xos4-terminesspowerline-medium-r-normal--14-140-72-72-c-80-iso10646-1, -*-fixed-bold-r-*-*-*-100-*-*-*-*-iso8859-1
+Rxvt.depth: 32
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+
 !URxvt.transparent: true
 !URxvt.foreground: yellow
 !URxvt.background: #101010
