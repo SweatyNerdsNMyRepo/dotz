@@ -16,7 +16,7 @@
 #POWERLEVEL9K_VCS_BACKGROUND=''
 autoload -Uz compinit
 setopt COMPLETE_ALIASES
-compinit
+compinit -d .config/zsh/.zcompdump
 ttyctl -f
 zstyle ':completion:*' rehash
 

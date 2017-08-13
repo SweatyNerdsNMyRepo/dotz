@@ -2,7 +2,7 @@ zsh
 bash
 
 xorg
-i3-gaps
+i3
 i3status
 i3lock
 dmenu
@@ -56,10 +56,8 @@ less
 ttf-anonymous-pro
 ttf-dejavu
 ttf-droid
-ttf-font-awesome
 ttf-freefont
 ttf-inconsolata
-ttf-iosevka-term
 ttf-ubuntu-font-family
 adobe-source-code-pro-fonts
 
@@ -79,3 +77,4 @@ irssi
 feh
 vlc
 mpv
+screenfetch
