@@ -1,8 +1,6 @@
 #Ignore everything - whitelist
 /*
 !/.gitignore
-!/.emacs.d
-!/.emacs.d/*
 !/.config/i3/config
 !/.profile
 !/.zlogin
@@ -15,8 +13,4 @@
 !/.aliases
 !/arch_pkgs
 !/community_pkgs
-/.emacs.d/*~
-/.emacs.d/tramp
-/.emacs.d/network-security.data
-/.emacs.d/auto-save-list
-/.emacs.d/elpa/
+!/.emacs.d/init.el
