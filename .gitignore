@@ -1,6 +1,7 @@
 #Ignore everything - whitelist
 /*
 !/.gitignore
+!/.emacs.d/*
 !/.emacs.d/init.el
 !/.config/i3/config
 !/.profile
