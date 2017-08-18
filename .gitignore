@@ -15,8 +15,8 @@
 !/.aliases
 !/arch_pkgs
 !/community_pkgs
-.emacs.d/*~
-.emacs.d/tramp
-.emacs.d/network-security.data
-.emacs.d/auto-save-list
-.emacs.d/elpa
+/.emacs.d/*~
+/.emacs.d/tramp
+/.emacs.d/network-security.data
+/.emacs.d/auto-save-list
+/.emacs.d/elpa/
