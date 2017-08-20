@@ -1,8 +1,8 @@
 [submodule ".emacs.d/emacs-powerline"]
 	path = .emacs.d/emacs-powerline
 	url = https://github.com/jonathanchu/emacs-powerline.git
-[submodule "/home/master/bin/powerlevel9k"]
-	path = /home/master/bin/powerlevel9k
+[submodule "bin/powerlevel9k"]
+	path = bin/powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
 [submodule "bin/sh_scripts"]
 	path = bin/sh_scripts

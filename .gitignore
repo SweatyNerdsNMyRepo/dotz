@@ -14,5 +14,8 @@
 !/arch_pkgs
 !/community_pkgs
 !/.emacs.d/init.el
+!/bin/**
+!/bin/powerlevel9k/
 !/bin/powerlevel9k/*
+!/bin/sh_scripts/
 !/bin/sh_scripts/*
