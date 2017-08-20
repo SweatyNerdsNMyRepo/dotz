@@ -13,4 +13,4 @@
 !/.aliases
 !/arch_pkgs
 !/community_pkgs
-!/.emacs.d/init.el
+!/.emacs.d/init.el!/bin/powerlevel9k
