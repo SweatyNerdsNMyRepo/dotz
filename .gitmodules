@@ -4,3 +4,6 @@
 [submodule "/home/master/bin/powerlevel9k"]
 	path = /home/master/bin/powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
+[submodule "bin/sh_scripts"]
+	path = bin/sh_scripts
+	url = https://github.com/SweatyNerdsNMyRepo/sh_scripts.git
